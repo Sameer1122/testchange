@@ -1,0 +1,278 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.input-template {
+  background-color: rgba(0, 0, 0, 0.125);
+  padding: 2px;
+  width: 30px;
+  font-size: 10px !important;
+  border-radius: 16px;
+  border: none;
+  padding-left: 13px;
+  
+}
+.input-template2 {
+  background-color: rgba(255, 255, 255, 0.125);
+  width: 46px;
+  font-size: 16px !important;
+  font-weight: bold;
+  border-radius: 16px;
+  border: none;
+}
+.input-template2:focus {
+  outline: none;
+}
+.ant-select-item-option-selected:not(.ant-select-item-option-disabled) > div > div > div > button {
+ display: none;
+}
+.ant-select-item-option-selected:not(.ant-select-item-option-disabled) > div > div > div >div > button {
+  display: block;
+  background-color: black;
+  color: white;
+ }
+.ant-select-item-option > div > div > div > div > button  {
+  display: none;
+}
+.e-schedule .e-month-view .e-appointment:first-child{
+  display: block;
+  background-color: transparent !important;
+  border: none !important;
+}
+.e-schedule .e-month-view .e-appointment {
+  display: none;
+}
+/* Date picker hide property */
+.e-input-group input.e-input, .e-input-group.e-control-wrapper input.e-input {
+  display: none;
+}
+.e-input-group:not(.e-float-icon-left), .e-input-group.e-control-wrapper:not(.e-float-icon-left){
+  border-bottom: none !important;
+}
+.e-input-group-icon.e-date-icon, *.e-control-wrapper .e-input-group-icon.e-date-icon{
+  margin: 0;
+}
+.e-input-group, .e-input-group.e-control-wrapper{
+  margin-bottom: 0;
+}
+.e-input-group:not(.e-float-icon-left):not(.e-float-input).e-input-focus::before{
+  width: 0 !important;
+}
+.e-input-group.e-control-wrapper:not(.e-float-icon-left):not(.e-float-input).e-input-focus::before{
+  width: 0 !important;
+}
+.input-group:not(.e-float-icon-left):not(.e-float-input).e-input-focus::after{
+  width: 0 !important;
+}
+.e-input-group.e-control-wrapper:not(.e-float-icon-left):not(.e-float-input).e-input-focus::after{
+  width: 0 !important;
+}
+.e-input-group .e-clear-icon, .e-input-group.e-control-wrapper .e-clear-icon{
+  display: none !important;
+}
+.event-template-react{
+            display: flex;
+            width: 25%;
+            margin: auto;
+            gap: 0.5rem;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-top: 1.5rem;
+            margin-left: 8px !important;
+}
+.month-cell {
+    
+    width: 180px !important;
+    position: absolute !important;
+    top: -17% !important;
+  }
+  .e-time-slots{
+    font-size: 11px !important;
+  }
+  .e-treeview {
+    overflow-y: scroll;
+}
+@media screen and (max-width: 2000px) {
+  .month-cell {
+    
+      width: 162px !important;
+      position: absolute !important;
+      top: -17% !important;
+  }
+}
+@media screen and (max-width: 1900px) {
+  .month-cell {
+    
+      width: 156px !important;
+      position: absolute !important;
+      top: -17% !important;
+  }
+}
+@media screen and (max-width: 1800px) {
+  .month-cell {
+    
+      width: 146px !important;
+      position: absolute !important;
+      top: -17% !important;
+  }
+}
+@media screen and (max-width: 1700px) {
+  .month-cell {
+    
+      width: 136px !important;
+      position: absolute !important;
+      top: -17% !important;
+  }
+}
+@media screen and (max-width: 1600px) {
+  .month-cell {
+    
+      width: 126px !important;
+      position: absolute !important;
+      top: -17% !important;
+  }
+}
+@media screen and (max-width: 1524px) {
+  .month-cell {
+    
+      width: 116px !important;
+      position: absolute !important;
+      top: -17% !important;
+  }
+}
+@media screen and (max-width: 1424px) {
+  .month-cell {
+    
+      width: 92px ;
+      position: absolute !important;
+      top: -17% !important;
+  }
+}
+@media screen and (max-width: 1324px) {
+  .month-cell {
+    
+      width: 99px !important;
+      position: absolute !important;
+      top: -17% !important;
+  }
+}
+@media screen and (max-width: 1224px) {
+  .month-cell {
+    
+      width: 90px !important;
+      position: absolute !important;
+      top: -17% !important;
+  }
+}
+@media screen and (max-width: 1124px) {
+  .month-cell {
+    
+      width: 80px !important;
+      position: absolute !important;
+      top: -17% !important;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .month-cell {
+    
+      width: 72px !important;
+      position: absolute !important;
+      top: -17% !important;
+  }
+}
+@media screen and (max-width: 914px) {
+  .month-cell {
+    
+      width: 62px !important;
+      position: absolute !important;
+      top: -17% !important;
+  }
+}
+.roles-template {
+          width: 212px;
+          border-radius: 8px;
+          overflow: hidden;
+          display: flex;
+          justify-content: space-between;
+          color: white;
+          padding: 2px 4px;
+}
+.e-schedule .e-month-view .e-current-date .e-date-header{
+  background-color: white;
+  color: #e3165b;
+  font-weight: bold;
+}
+.e-schedule .e-schedule-toolbar{
+  display: none !important;
+}
+.e-treeview.e-drag-item .e-icons.e-no-drop::before {
+  content: "" !important;
+  display: none !important;
+  height: 0 !important;
+}
+.e-treeview .e-icon-expandable{
+  width: 0 !important;
+  height: 0 !important;
+}
+@media screen and (max-width: 1554px) {
+  .roles-template {
+    width: 190px;
+    border-radius: 8px;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 2px 4px;
+}}
+@media screen and (max-width: 1454px) {
+  .roles-template {
+    width: 170px;
+    overflow: hidden;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 2px 4px;
+}}
+@media screen and (max-width: 900px) {
+  .month-cell {
+    width: 140px;
+          overflow: hidden;
+          display: flex;
+          justify-content: space-between;
+          color: white;
+          padding: 2px 4px;
+}}
+.ant-select-item-option-selected:not(.ant-select-item-option-disabled) .ant-select-item-option-state {
+  color: #1890ff;
+  display: none;
+}
+.e-treeview.e-fullrow-wrap .e-icon-expandable{
+  width: 0;
+}
+.e-schedule .e-timeline-view .e-appointment{
+  height: 92px;
+}
+.e-icons .e-icon-expandable .e-no-drop{
+  height: 0 !important;
+}
+.react-event-button{
+              background-color: #0009;
+                cursor: pointer;
+                padding: 4px 12px;
+                border-radius: 16px;
+                font-size: 10px !important;
+                border: none;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+

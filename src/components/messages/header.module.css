@@ -1,0 +1,53 @@
+.container{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+.avatar{
+    width: 36px;
+    height: 36px;
+    border-radius: 1000px;
+    object-fit: cover;
+}
+.imgContainer {
+    position: relative;
+}
+.online{
+    height: 10px;
+    position: absolute;
+    border-radius: 1000px;
+    width: 10px;
+    top: 10%;
+    left: 80%;
+    background-color: #3ED598;
+}
+.offline{
+    height: 10px;
+    position: absolute;
+    border-radius: 1000px;
+    width: 10px;
+    top: 10%;
+    left: 80%;
+    background-color: #8d8d8d;
+}
+.outercontainer{
+    display: flex;
+    padding: 8px 16px;
+    border-bottom: 2px solid #cecece;
+    margin: auto;
+    width: 96%;
+    justify-content: space-between;
+}
+.more{
+    transform: rotate(90deg);
+}
+.status{
+    left: 46%;
+    bottom: -16%;
+    color: #333;
+    position: absolute;
+    font-size: 16px;
+    
+    padding: 0px 16px;
+    background: white;
+}

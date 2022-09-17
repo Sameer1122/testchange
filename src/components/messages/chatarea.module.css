@@ -1,0 +1,29 @@
+.chat{
+    display: flex;
+    border: 1px solid #1890ff75;
+    margin-bottom: 1rem;
+    font-size: 18px;
+    width: 50%;
+    padding: 8px 12px;
+    color: #A1A1A9;
+    border-radius: 8px;
+}
+.my{
+    display: flex;
+    border: 1px solid #a1a1a97d;
+    margin-bottom: 1rem;
+    font-size: 18px;
+    
+    width: 50%;
+    background-color: #979797;
+    padding: 8px 12px;
+    color: white;
+    border-radius: 8px;
+}
+.empty{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color: #A1A1A9;
+}

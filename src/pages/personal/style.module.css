@@ -1,0 +1,48 @@
+.titlewrapper {
+    display: flex;
+    gap: 1rem;
+    margin-top: 2rem;
+    align-items: center;
+}
+.title{
+    font-weight: bold;
+    font-size: 24px;
+    margin: 0;
+    color: #3E3E3F;
+}
+.container{
+    background: white;
+   padding: 0rem 0 4rem 0;
+    border: 1px solid black;
+    border-radius: 16px;
+    width: 100%;
+}
+.buttonpersonal{
+    background: #333333;color: white;
+    margin-bottom: 2rem;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    border-radius: 8px;
+    height: 42px;
+    width: 25%;
+}
+.upload{
+    background: #333333;color: white;
+   
+    border-radius: 8px;
+    width: 50%;
+    margin: auto;
+   
+    margin-top: 1rem;
+  
+}
+.label {
+    font-size: 14px;
+}
+.input {
+    background: white;
+    border: 1px solid gray;
+    border-radius: 8px;
+    width: 125%;
+    padding: 4px 16px;
+}

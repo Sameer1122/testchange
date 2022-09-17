@@ -1,0 +1,59 @@
+.icon-header{
+    font-size: 20 !important; 
+    cursor: "pointer" !important;
+}
+.ant-popover-inner-content {
+    padding: 0 !important; 
+  
+}
+.ant-popover-inner-contentt {
+    padding: 12px 6rem 24px 17px;
+    color: white;
+    background: #353C49;
+}
+.ant-popover-arrow-content {
+    --antd-arrow-background-color: #353c49 !important;
+}
+.ant-popover-placement-bottomLeft .ant-popover-arrow {
+    left: 0px !important;
+}
+.innercontent{
+
+       padding: 4px 10px;
+        color: black;
+        background: #ECF2FF;
+        border-radius: 8px;
+        border: 1px solid gray;
+    }
+
+.button-row {
+    display: flex;
+    
+}
+.notification-buttons{
+    width: 180px;
+    border-radius: 8px;
+    height: 36px;
+    border: none;
+}
+.notif-content{
+    display: flex;
+    margin-top: 1rem;
+    gap: 1rem;
+    cursor: pointer;
+}
+.notif-content:hover{
+    background-color: white;
+}
+.lock-icon {
+    
+        font-size: 16px;
+        background: white;
+        border-radius: 1000px;
+        padding: 8px;
+      
+}
+.single-notif{
+    display: flex;
+    gap: 8px;
+}
