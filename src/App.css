@@ -1,0 +1,80 @@
+@import url('https://cdn.syncfusion.com/ej2/material.css');
+
+.App {
+  text-align: center;
+}
+.jFbXPZ {
+  font-size: 24px;
+  position: absolute;
+  top: 42%;
+}
+.action-class {
+  padding: 4px;
+}
+.anticon svg {
+  display: none;
+}
+.action-class:hover {
+  background-color: #EDEDED;
+}
+.e-treeview .e-ul{
+  overflow: hidden !important;
+  }
+  .e-treeview.e-interaction.e-fullrow-wrap .e-text-content{
+    padding: 0;
+  }
+  .e-treeview .e-list-item div.e-icons::before{
+    display: none;
+  }
+  .ant-select-multiple .ant-select-selection-item-content >div > div > img{
+    display: none !important;
+  }
+  .ant-select-multiple .ant-select-selection-item-content >div > div > button{
+    display: none !important;
+  }
+  .ant-select-multiple .ant-select-selection-item-content >div > div > h5{
+    display: none !important;
+  }
+  .ant-select-multiple .ant-select-selection-item-content >div > div > div > button{
+    display: none !important;
+  }
+  
+  .e-schedule .e-month-view .e-appointment{
+    overflow: visible !important;
+  }
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.sider-issue{
+  width: 101%;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
